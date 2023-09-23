@@ -6,3 +6,8 @@ def selection_sort_descending(arr:list):
             if arr[j] > arr[max_index]:
                 max_index = j
         arr[i], arr[max_index] = arr[max_index], arr[i]
+
+
+arr = [0, 2, 25, 12, 22, 11]
+selection_sort_descending(arr)
+print("Sorted array in descending order:", arr)
